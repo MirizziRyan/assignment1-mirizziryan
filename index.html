@@ -1,47 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sweet Harvest Bakery & Café - Home</title>
-</head> <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bakery & Cafe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
 
-    <header>
-        <h1>Sweet Harvest Bakery & Café</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <!-- Stretch Goal: Internal jump link -->
-                <li><a href="#featured">Featured Menu</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <h1>Welcome to The Daily Crust Bakery & Cafe</h1>
+  </header>
 
-    <main>
-        <section>
-            <h2>Welcome to Sweet Harvest</h2>
-            <p>This section features a warm introduction to our bakery-café, showcasing our daily hours and current seasonal specials.</p>
-            <img src="images/bakery.jpg" alt="Freshly baked croissants and bread on a display shelf" width="500">
-        </section>
+  <main>
+    <h2>Our Special Offerings</h2>
+    
+    <!-- Daily Special Widget -->
+    <div class="special-container">
+      <button id="show-special">Show Daily Special</button>
+      <p id="daily-special"></p>
+    </div>
+  </main>
 
-        <!-- Stretch Goal Target -->
-        <section id="featured">
-            <h2>Featured Menu Items</h2>
-            <p>This section highlights our top-selling baked goods and handcrafted beverages made fresh every morning.</p>
-            <ul>
-                <li>Artisanal Sourdough Bread</li>
-                <li>Butter Croissants</li>
-                <li>Iced Vanilla Oat Latte</li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 Sweet Harvest Bakery & Café. All rights reserved.</p>
-    </footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
